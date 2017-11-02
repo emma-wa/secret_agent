@@ -66,6 +66,88 @@ html {
   background-color: firebrick;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   color: white;
+}
+
+.middle-nav .container {
+  display: flex;
+  justify-content: space-between;
+  padding: .75rem 0;
+}
+
+/* products display area */
+
+.middle-products {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-products .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.product {
+  width: 30%;
+  border: 4px solid black;
+}
+
+.pic {
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.pic img {
+  max-width: 8em;
+}
+
+.product span {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+  display: block;
+  text-align: center;
+  width: 100%
+}
+
+/* location & contact detail */
+
+.middle-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-contact .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-item {
+  width: 35%;
+}
+
+.contact-item h3 {
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  margin-bottom: .25rem;
+}
+
+/* footer */
+
+footer {
+  height: 5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+footer .container {
+  text-align: left;
 }
