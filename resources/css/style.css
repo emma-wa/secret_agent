@@ -151,3 +151,104 @@ footer {
 footer .container {
   text-align: left;
 }
+
+/* media queries */
+
+/* hide the menu button on desktop/laptop */
+
+@media only screen and (min-width: 1024px) {
+  .middle-nav h1 {
+    display: none;
+  }
+}
+
+/* tablets */
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  .top h2 {
+    font-size: .75rem;
+  }
+
+  .top h1 {
+    font-size: 1.5rem;
+  }
+
+  .middle-nav span {
+    display: none;
+  }
+
+  .middle-nav .container {
+    display: flex;
+    justify-content: center;
+    padding: .75rem 0;
+  }
+}
+
+/* phones */
+
+@media only screen and (max-width: 470px) {
+  /* billboard */
+  .top {
+    height: 15rem;
+  }
+
+  .pic {
+    height: 10rem;
+  }
+
+  .top-text {
+    padding: 1rem 2rem;
+  }
+
+  .top h2 {
+    font-size: .77rem;
+  }
+
+  .top h1 {
+    font-size: 1rem;
+  }
+
+/* products */
+
+.middle-products .container {
+  display: flex;
+  justify-content: center;
+}
+
+  .product {
+    width: 90%;
+  }
+
+  #glasses {
+      display: none;
+    }
+
+  #watch {
+    display: none;
+  }
+
+  /* contact info */
+  .middle-contact .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-item {
+    width: 90%;
+    padding-bottom: 0.5rem;
+  }
+
+/* footer */
+  footer .container {
+    display: flex;
+    justify-content: center;
+  }
+}
